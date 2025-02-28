@@ -4,10 +4,6 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
-  build:{
-    outDir:'dist'
-
-  },
   server:{
     proxy:{
       '/api':{
